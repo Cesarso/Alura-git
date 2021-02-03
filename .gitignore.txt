@@ -1,0 +1,69 @@
+ide-config
+ ../../.AndroidStudio3.5/
+        ../../.VirtualBox/
+        ../../.android/
+        ../../.appinventor/
+        ../../.astah/
+        ../../.astropy/
+        ../../.bash_history
+        ../../.conda/
+        ../../.condarc
+        ../../.eclipse/
+        ../../.gitconfig
+        ../../.gradle/
+        ../../.idlerc/
+        ../../.ipynb_checkpoints/
+        ../../.ipython/
+        ../../.jmc/
+        ../../.jupyter/
+        ../../.matplotlib/
+        ../../.minttyrc
+        ../../.recently-used.xbel
+        ../../3D Objects/
+        ../../AppData/
+        "../../Configura\303\247\303\265es Locais/"
+        ../../Contacts/
+        ../../Cookies/
+        ../../Creative Cloud Files/
+        ../../Dados de Aplicativos/
+        ../../Desktop/
+        ../Contagem DIZIMISTAS.docx
+        ../Default.rdp
+        ../Materiais de Marketing-20210129T134611Z-001.zip
+        ../Protocolo.pdf
+        ../aula6 flask.zip
+        ../desktop.ini
+        ../../Downloads/
+        ../../Favorites/
+        ../../Gestao.sql
+        ../../Google Drive/
+        ../../Links/
+        ../../Machine Learning/
+        ../../Music/
+        ../../NTUSER.DAT{1b256023-7a6e-11e8-b106-001fc69d8bdd}.TM.blf
+        ../../NTUSER.DAT{1b256023-7a6e-11e8-b106-001fc69d8bdd}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{1b256023-7a6e-11e8-b106-001fc69d8bdd}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Projetos Python/
+        ../../PycharmProjects/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Untitled.ipynb
+        ../../Untitled1.ipynb
+        ../../Videos/
+        ../../XE.sql
+        ../../XE1.sql
+        ../../anaconda3/
+        ../../aula13_11_20_Comand/
+        ../../git-e-github/
+        ../../logs/
+        ../../ntuser.dat
+        ../../ntuser.dat.log1
+        ../../ntuser.dat.log2
+        ../../ntuser.dat{aa36aad4-8dfa-11ea-a88a-f04da2e28639}.TM.blf
+        ../../ntuser.dat{aa36aad4-8dfa-11ea-a88a-f04da2e28639}.TMContainer00000000000000000001.regtrans-ms
+        ../../ntuser.dat{aa36aad4-8dfa-11ea-a88a-f04da2e28639}.TMContainer00000000000000000002.regtrans-ms
+        ../../ntuser.ini
+        ../../provaAv2_Command/
+        ../../setup.spec
