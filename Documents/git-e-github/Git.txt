@@ -1,0 +1,102 @@
+Instalando o Git
+Podemos executar de forma padrão o instalador no windows;
+
+Debian / Ubuntu
+Para obter a versão estável mais recente para seu lançamento de Debian / Ubuntu
+
+# apt-get install git
+Para Ubuntu, este PPA fornece a versão upstream estável mais recente do Git
+
+# add-apt-repository ppa:git-core/ppa # apt update; apt install git
+Fedora
+# yum install git(até Fedora 21)
+# dnf install git(Fedora 22 e posterior)
+
+Para acessar as pastas:
+Windows -> dir
+linux -> LS
+
+Verifica versão:
+$ git --version
+
+
+Versionando projetos:
+- apontar a pasta onde está o projeto;
+cd documents/nome-pasta
+
+Para iniciar o repositorio:
+- git init
+
+Para verificar se criou:
+- git status
+
+Para adicionar arquivo para monitamento:
+- git add  nome_do_arquivo
+
+Para Adicionar user ao Git:
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+
+Para commitar:
+- Mensagem-> git commit -m "mensagem do repositorio"
+
+Para Configurar:
+Local -> git config --local nome_da_config
+ex.: git config user.name 'Cesar Soares'
+
+
+Para visualizar os logs:
+- git log
+- git log -oneline
+- git log -p
+- gt log --pretty="format:%h %s %ae"
+
+Para que o Git ignore outros arquivos e pastas
+- Criar um arquivo de nome-> .gitignore
+- dentro dele colocar o nome-do-arquivo
+- Para pasta colocar nome_do_arquivo/
+
+- Adicione (com git add .gitignore) e realize o commit (com git commit -m "Adicionando .gitignore") o arquivo .gitignore.
+
+Criando o Compartilhamento:
+
+1° Criando uma pasta pelo Git:
+- cd .. (muda a pasta local)
+- mkdir servidor (criando a pasta de nome servidor)
+- cd servidor/ (acesssando a pasta)
+- git init --bare (só vai controlar as alterações: repositorio puro)
+
+2° Apontar o repositorio remoto:
+- git remote
+- git remote add local caminho_do_endereço(servidor)(url, um endereço de um pc da rede e etc)
+- git remote -v (mostra o endereço do local)
+
+Caso outra pessoa queira acessar os arquivos:
+- cd ..
+- mkdir nome_da_pessoa (cria a pasta para a pessoa)
+- cd nome_pasta (acessa a pasta criada)
+- git clone /nome_pasta_servidor/nome_nova_pasta
+
+Enviando dados para o servidor:
+- git push local master 
+Trazendo os dados:
+- cd ..pasta/
+- git remote
+- git remote rename origin local
+- git remote
+- git pull local master
+-git add nome_arquivo
+- commit -m 'Coloca o motido da mudança'
+- git push local master
+
+
+Colocando o servidor como o GITHUB
+- Novo repositorio
+- descriçao
+- Privado só pra quem paga o git
+- criar
+- Marcar HTTPS
+- Copia o comando do repositorio:
+git remote add origin https://github.com/Cesarso/Alura-git.git
+- git branch -M main
+- git push origin main
